@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    min-width: 1400px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: Roboto;
+}
+.header {
+    background: black;
+    height: 72px;
+    padding: 5px 0px 4px;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+   
+.message {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+}
+    line-height: 0.9;
+    color: #44b78b;
+}

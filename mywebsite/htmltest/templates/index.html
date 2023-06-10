@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>웹 문서 만들기</title>
+    </head>
+    <body>
+        <h1>웹 개발 기초</h1>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>자바스크립트</p>
+        <caption align="left">Table caption: colspan and rowspan examples</caption>
+        <table border="3" bordercolor="#990000">
+            <tr><td colspan=4>This cell spans four columns</td></tr>
+            <tr>
+                <td rowspan=4>This cell spans three rows</td>
+                <td colspan=2 rowspan=2>This cell spans two columns and two rows</td>
+                <td>Col 4, Row 2</td>
+            </tr>
+            <tr><td>Col 4, Row 3</td></tr>
+            <tr>
+                <td>Col 2, Row 4</td>
+                <td>Col 3, Row 4</td>
+                <td>Col 4, Row 4</td>
+            </tr>
+        </table>
+        
+        <h2>HTML Forms</h2>
+        <form action="/action_page.js">
+            First name:<br><input type="text" name="firstname" value="Mickey">
+            <br>
+            Last name:<br><input type="text" name="lastname" value="Mouse">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.js".</p>
+    </body>
+</html>
